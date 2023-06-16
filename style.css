@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: white;
+color: black;
+font-family: cursive;
+display: flex;
+flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 4rem;
+    gap: 1rem;
+    display: flex;
+    background-color: black;
+    color: rgb(222, 11, 11);
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 99999999999999999999999;
+    top: 0;
+    font-family: cursive;
+  }
+  nav a{
+    color: red;
+  }
+  header nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  *{
+    margin: 0;
+  }
+  nav a{
+    text-decoration: none;
+    font-family: cursive;
+  }
+.hero{
+
+  margin: 2rem;
+  padding: 1rem;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: start;
+  margin-top: 4rem;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+}
+ .content button:hover{
+    background-color: black;
+  }
+.content button{
+  width: 40%;
+  padding: 7px;
+  border-radius: 20px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-family: cursive;
+}
+button:active{
+  transform: scale(1.05);
+}
+@media (width <= 412px){
+    body{
+        display: grid;
+        place-items: center;
+    }
+ .hero{
+    width: 100%;
+    display: grid;
+ }
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 10px;
+  width: 100%;
+  background-color: wheat;
+}
+footer .social ul{
+  display: flex;
+  gap: 5rem;
+}
+
+
+ul{
+  display: flex;
+  gap: 4rem;
+}
+
+li{
+  list-style: none;
+}
